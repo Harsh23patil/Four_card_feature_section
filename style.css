@@ -1,0 +1,134 @@
+/* Heading Css */
+body{
+    background-color: #fafafc;
+}
+p{
+    font-size: 1.1rem;
+    color: rgb(115, 115, 115);
+    
+}
+.Heading{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    padding:0 30%;
+}
+.heading1{
+    color: rgb(115, 115, 115);
+    font-size: 2.5rem;
+    padding: 5px;
+}
+.heading2{
+    font-weight: 900;
+    padding: 5px;
+    font-size: 2.7rem;
+}
+.headingPara{
+    font-weight: 300;
+    color: rgb(115, 115, 115);
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+/* Row */
+.row{
+    width: 100%;
+}
+
+/* Cards */
+.Cards{
+    padding: 40px 10%;
+    position: absolute;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 70%;
+    margin-top: 20px;
+}
+.card{
+    padding: 0;
+    border: 0 transparent;
+    border-radius: 10px;
+    margin: 15px;
+    line-height: 1.5;
+    box-shadow: 10px 5px 5px rgb(166, 166, 166);
+}
+.card1{
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+.card2{
+    margin: auto;
+}
+.card3{
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+.card4{
+    margin: 50px 38%;
+    margin-top: 100px;
+    box-shadow: #e63950 ;
+}
+.color{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    padding: 3px 0 0 0;
+}
+.col_sup{
+    background-color: #00c8c8;
+}
+.col_Team{
+    background-color: #e63950;
+}
+.col_cal{
+    background-color: #549ef2;
+}
+.col_karma{
+    background-color: #ff9100;
+}
+
+.inner_body{
+    background-color: white;
+    padding: 10px;
+}
+
+/* @media (max-width:1150px){
+
+} */
+
+@media (max-width:990px){
+    .Heading{
+        padding: 0 12%;
+    }
+    .heading1{
+        font-size: 1.5rem;
+    }
+    .heading2{
+        font-size: 1.7rem;
+    }
+    .headingPara{
+        font-size: 1rem;
+    }
+    .card1{
+        position: relative;
+        top: 0;
+        margin: 30px 0;
+    }
+    .card2{
+        margin: 30px 0;
+    }
+    .card3{
+        position: relative;
+        top: 0;
+        margin: 30px 0;
+    }
+    .card4{
+        margin: 30px 0;
+    }
+}
